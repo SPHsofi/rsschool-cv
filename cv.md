@@ -74,4 +74,25 @@ function squareDigits(num) {
   * W3schools: Python, JavaScript, Node.JS (just started)
   * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
  
-## 
+## Work experience – 1 year 2 months as of 11/11/2023
+
+**Mosgorgeotrest** – Moscow (www.mggt.ru )
+
+  * September 2022 - August 2023 (work half-days)
+    * **Post:** Technician
+      * Development of web applications on Oracle Apex
+      * working with databases Oracle
+      * writing SQL queries
+      * analysis of business processes and their further use.
+
+  * August 2023 - Until now
+    * **Post:** Engineer Added to the above:
+      * using Camunda as an engine for business processes
+      * writing pl/sq scripts
+      * using GitLab
+      * using Docker
+
+## Languages
+
+* Russian - Native
+* English - A2 (Pre-Intermediate)
