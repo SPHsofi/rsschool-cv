@@ -96,3 +96,4 @@ function squareDigits(num) {
 
 * Russian - Native
 * English - A2 (Pre-Intermediate)
+> English in the process of studying
