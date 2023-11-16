@@ -69,8 +69,14 @@
     color: #1A120B;
 }
 
-#skills {
+.heading1 {
     margin: 30px 0 0 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1A120B;
+    text-decoration-line: underline;
+    letter-spacing: 0.3px;
 }
 
 .content-text {
