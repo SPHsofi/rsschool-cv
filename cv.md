@@ -23,14 +23,17 @@ I also actively play sports, go to volleyball and dance. Since childhood, I have
  * SQL
  * HTML
  * CSS
+ * JavaScript
+ * Vue.js
+ * Git
+ * 
 
 **Elementary**
 
 * Python
-* JavaScript
 * Node.js
 * Angular
-* Vue.js
+* React
   
 **Programs** 
 
