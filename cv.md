@@ -26,7 +26,6 @@ I also actively play sports, go to volleyball and dance. Since childhood, I have
  * JavaScript
  * Vue.js
  * Git
- * 
 
 **Elementary**
 
@@ -81,8 +80,11 @@ function getPolynom(...coefficients) {
 
 * **Courses**
   * W3schools: Python, JavaScript, Node.JS (just started)
-  * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
- 
+  * RS Schools Course «JavaScript/Front-end. Stage 1 - 2023»
+  * RS Schools Course «JavaScript/Front-end. Stage 2 - 2024»
+
+<img width="459" alt="Снимок экрана 2024-06-28 в 07 16 59" src="https://github.com/SPHsofi/rsschool-cv/assets/109211098/06d7bb2e-b297-4fd4-b0f3-5cefae6389cc">
+
 ## Work experience – 1 year 2 months as of 11/11/2023
 
 **Mosgorgeotrest** – Moscow (www.mggt.ru )
