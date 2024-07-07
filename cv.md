@@ -65,12 +65,18 @@ I also actively play sports, go to volleyball and dance. Since childhood, I have
 
 ## Code examples
 ```
-function squareDigits(num) {
-  
-  let digits = Array.from(num.toString());
-  let squaredDigits = digits.map(d => Math.pow(parseInt(d), 2)).join('');
+function getPolynom(...coefficients) {
+  if (coefficients.length === 0) {
+    return null;
+  }
 
-  return parseInt(squaredDigits);
+  return function polyn(x) {
+    let res = 0;
+    for (let i = 0; i < coefficients.length; i += 1) {
+      res += coefficients[i] * x ** (coefficients.length - 1 - i);
+    }
+    return res;
+  };
 }
 ```
 ## Education
