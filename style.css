@@ -56,6 +56,8 @@ h2 {
     font-size: 20px;
 }
 
+list
+
 .nuv-sub-title,
 h3 {
     font-size: 18px;
@@ -63,6 +65,8 @@ h3 {
 
 .nav-text {
     margin: 5px 0;
+    text-decoration-line: none;
+    font-size: 16px;
 }
 
 .main {
