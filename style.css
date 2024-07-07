@@ -1,142 +1,123 @@
-.main {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A120B;
+    font-size: 16px;
+    margin: 0 auto;
     width: 800px;
-    /*background-color: #848484;*/
-    height: 1500px;
-    margin:0 auto;
-    box-sizing: border-box;
-}
-.main-name {
-    margin: 0 auto;
-    height: 125px;
-    border-bottom: 2px solid #532f14 ;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: max-content max-content max-content;
+    grid-template-areas: 'header header' 'nav main' 'footer footer';
 }
 
-.main-text{
-    margin: 0 auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    color: #1d140c;
-    text-align: left;
-    padding: 40px 60px;
-}
-
-.hr1 {
-    margin: 0 auto;
-    width: 680px;
-    color: #1A120B; 
-}
-
-.main-content {
+.header {
+    grid-area: header;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: min-content;
+    justify-content: space-between;
+    border-bottom: 2px solid #1A120B;
 }
 
-.content-title {
-    width: 280px;
-    border-right: 2px solid #532f14;
-
+.img {
+    width: 200px;
+    height: 200px;
 }
 
-.content-details {
-    margin: 30px 59px;
-    width: 157px;
-}
-
-.heading {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #1A120B;
-    text-decoration-line: underline;
-    letter-spacing: 0.3px;
-}
-
-.subtitle {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 0.2px;
-    color: #1A120B;
-    margin: 30px 0 0 0;
-}
-
-.text {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 0.09px;
-    margin: 4px 0 0 0;
-    color: #1A120B;
-}
-
-.heading1 {
-    margin: 30px 0 0 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #1A120B;
-    text-decoration-line: underline;
-    letter-spacing: 0.3px;
-}
-
-.content-text {
-    width: 520px;
-    height: 1059px;
-}
-
-.content-basic {
-    margin: 30px 40px;
-}
-
-.about {
-    margin: 15px 0 0 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 0.09px;
-    color: #1A120B;
-}
-
-#about {
-    text-indent: 20px;
-}
-
-.exp {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #1A120B;
-    text-decoration-line: underline;
-    letter-spacing: 0.3px;
-    margin: 30px 0 0 0;
-}
-
-.sub {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 0.2px;
-    color: #1A120B;
-    margin: 15px 0 0 0;
-}
-
-.post {
-    margin: 6px 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 0.09px;
-    color: #1A120B;
-}
-
-li {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 0.09px;
-    color: #1A120B;
+.nav {
+    grid-area: nav;
+    border-right:  2px solid #1A120B;
 }
 
 ul {
     padding-left: 20px;
+}
+
+.nav-title,
+.nuv-sub-title  {
+    font-weight: bold;
+    list-style: none;
+}
+
+.non {
+    list-style: none;
+}
+
+.nav-title,
+h2 {
+    margin: 20px 0;
+    text-decoration-line: underline;
+    font-size: 20px;
+}
+
+.nuv-sub-title,
+h3 {
+    font-size: 18px;
+}
+
+.nav-text {
+    margin: 5px 0;
+}
+
+.main {
+    grid-area: main;
+    margin: 0 0 20px 20px;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.work-one ,
+.work-two,
+.work-three {
+    margin: 15px 10px;
+}
+
+.post,
+.university {
+    font-weight: bold;
+}
+
+.date,
+.speciality {
+    padding-bottom: 10px ;
+}
+
+.footer {
+    border-top: 2px solid #1A120B;
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.git {
+    text-decoration: none;
+    color: #1A120B;
+    font-size: 18px;
+}
+
+.logo {
+    margin: 20px 0;
+}
+
+.link-animation {
+    transition: 1s;
+}
+
+.link-animation:hover {
+    transform: scale(1.2);
+}
+
+.year {
+    font-size: 18px;
 }

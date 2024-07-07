@@ -24,15 +24,22 @@ I also actively play sports, go to volleyball and dance. Since childhood, I have
  * HTML
  * CSS
  * JavaScript
- * Vue.js
+ * TypeScript
  * Git
+ * Vite
+
+**Base**
+ * Webpack
+ * Vue.js
+ * React
 
 **Elementary**
 
 * Python
 * Node.js
 * Angular
-* React
+* Node.js
+* SASS
   
 **Programs** 
 
@@ -45,7 +52,7 @@ I also actively play sports, go to volleyball and dance. Since childhood, I have
 * PostgreSQL
 * MS Office
 * Microsoft Visual Studio
-* GitHub.
+* GitHub
 
 ## Other skills
 
@@ -80,12 +87,11 @@ function getPolynom(...coefficients) {
 
 * **Courses**
   * W3schools: Python, JavaScript, Node.JS (just started)
-  * RS Schools Course «JavaScript/Front-end. Stage 1 - 2023»
-  * RS Schools Course «JavaScript/Front-end. Stage 2 - 2024»
-
-<img width="459" alt="Снимок экрана 2024-06-28 в 07 16 59" src="https://github.com/SPHsofi/rsschool-cv/assets/109211098/06d7bb2e-b297-4fd4-b0f3-5cefae6389cc">
-
-## Work experience – 1 year 2 months as of 11/11/2023
+  * RS Schools Course «JavaScript/Front-end. Stage 1» 2023 (finish)
+  * RS Schools Course «JavaScript/Front-end. Stage 2» 2024 (finish)
+<img width="598" alt="Снимок экрана 2024-07-07 в 11 02 23" src="https://github.com/SPHsofi/rsschool-cv/assets/109211098/7c7b952f-f2c6-4ec7-a4de-d7e7e96af990">
+ 
+## Work experience – 1 year 11 months as of 07/07/2024
 
 **Mosgorgeotrest** – Moscow (www.mggt.ru )
 
@@ -96,12 +102,26 @@ function getPolynom(...coefficients) {
       * writing SQL queries
       * analysis of business processes and their further use.
 
-  * August 2023 - Until now
+  * August 2023 - January 2024
     * **Post:** Engineer Added to the above:
-      * using Camunda as an engine for business processes
-      * writing pl/sq scripts
-      * using GitLab
-      * using Docker
+      * Writing sql queries, at a more complex level
+      * Creating business processes for tasks and using Camunda as a business process engine
+      * Writing PL/SQ scripts to automate data transfer between the database and Camunda, as well as to automate other processes
+      *  Using gitlab to track history
+      *  Using Docker;
+  
+  * January 2024 - Until now
+    * **Post:** Frontend developer
+      * Assistance in supporting existing solutions on Vue.js using the FSD architecture
+      * Website layout using HTML and CSS/SASS to create styles
+      * Configuration and compliance with ESLint and Prettier standards
+      * Development of new TypeScript solutions under the guidance of more experienced developers
+      * Help in writing unit tests on Mocha.js
+      * Documenting projects using JSDoc/Documentation.js
+      * Working with client-side data storage using Pinia
+      * Learning new technologies and developing methods to improve skills
+      * Study of the main directions of web application development and work with modern frameworks
+      * Participate in online courses and trainings to improve your knowledge
 
 ## Languages
 
