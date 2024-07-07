@@ -69,6 +69,19 @@
                 </li>
             </ul>
         </li>
+        <li class="non"><p class="nav-title">PROJECTS</p>
+            <ul>
+                <li class="nav-text">
+                    <a target="_blank"  href="https://rolling-scopes-school.github.io/sphsofi-JSFE2023Q4/CoffeeHouse/" class="proj">CoffeeHouse</a>
+                </li>
+                <li class="nav-text">
+                    <a target="_blank"  href="https://rolling-scopes-school.github.io/sphsofi-JSFE2023Q4/hangman/index.html" class="proj">Hangman</a>
+                </li>
+                <li class="nav-text">
+                    <a target="_blank"  href="https://rolling-scopes-school.github.io/sphsofi-JSFE2023Q4/nonograms/index.html"  class="proj">Nonograms</a>
+                </li>
+            </ul>
+        </li>
         <li class="non"><p class="nav-title">LANGUAGE</p>
             <ul>
                 <li class="nav-text non"><b>Russian: </b>Native</li>
@@ -149,6 +162,27 @@
             <li>RS Schools Course «JavaScript/Front-end. Stage 3 (React)» 2024 (in progress)</li>
             <li>RS Schools Course «JavaScript/Front-end. Stage 0» 2024 (in progress)</li>
         </ul>
+    </section>
+
+    <section class="code section">
+        <h2>CODE EXAMPLE</h2>
+        <p><b>Condition: </b>Returns the polynom function of one argument based on specified coefficients.</p>
+        <pre>
+            <code>
+function getPolynom(...coefficients) {
+    if (coefficients.length === 0) {
+        return null;
+    }
+    return function polyn(x) {
+        let res = 0;
+        for (let i = 0; i < coefficients.length; i += 1) {
+            res += coefficients[i] * x ** (coefficients.length - 1 - i);
+        }
+        return res;
+    }
+};
+            </code>
+        </pre>
     </section>
 </main>
 <footer class="footer">
