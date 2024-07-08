@@ -7,12 +7,26 @@
 </head>
 <body>
 <header class="header">
-    <h1>Sharshunskaya Sofia</h1>
-    <img src="img.jpeg" alt="cv photo Sofi" class="img">
+    <nav>
+        <ul class="nav">
+            <li class="link-animation"><a href="#contacts">Contacts</a></li>
+            <li class="link-animation"><a href="#skills">Skills</a></li>
+            <li class="link-animation"><a href="#projects">Projects</a></li>
+            <li class="link-animation"><a href="#language">language</a></li>
+            <li class="link-animation"><a href="#about">About</a></li>
+            <li class="link-animation"><a href="#work">Work experience</a></li>
+            <li class="link-animation"><a href="#education">Education</a></li>
+            <li class="link-animation"><a href="#code">Code example</a></li>
+        </ul>
+    </nav>
+    <section class="header-info">
+        <h1>Sharshunskaya Sofia</h1>
+        <img src="img.jpeg" alt="cv photo Sofi" class="img">
+    </section>
 </header>
-<nav class="nav">
+<aside class="aside">
     <ul>
-        <li class="non"><p class="nav-title">CONTACTS</p>
+        <li class="non"><p class="nav-title" id="contacts">CONTACTS</p>
             <ul>
                 <li class="nav-text non"><b>Address:</b> Russia, Moscow</li>
                 <li class="nav-text non"><b>Phone:</b> +7 (926) 095 53 91</li>
@@ -21,7 +35,7 @@
             </ul>
         </li>
 
-        <li class="non"><p class="nav-title">SKILLS</p>
+        <li class="non"><p class="nav-title" id="skills">SKILLS</p>
             <ul>
                 <li class="non"><p class="nuv-sub-title">Advansed</p>
                     <ul>
@@ -69,29 +83,34 @@
                 </li>
             </ul>
         </li>
-        <li class="non"><p class="nav-title">PROJECTS</p>
+        <li class="non"><p class="nav-title" id="projects">PROJECTS</p>
             <ul>
-                <li class="nav-text">
-                    <a target="_blank"  href="https://rolling-scopes-school.github.io/sphsofi-JSFE2023Q4/CoffeeHouse/" class="proj">CoffeeHouse</a>
+                <li class="nav-text link-animation">
+                    <a target="_blank" href="https://rolling-scopes-school.github.io/sphsofi-JSFE2023Q4/CoffeeHouse/"
+                       class="proj">CoffeeHouse</a>
                 </li>
-                <li class="nav-text">
-                    <a target="_blank"  href="https://rolling-scopes-school.github.io/sphsofi-JSFE2023Q4/hangman/index.html" class="proj">Hangman</a>
+                <li class="nav-text link-animation">
+                    <a target="_blank"
+                       href="https://rolling-scopes-school.github.io/sphsofi-JSFE2023Q4/hangman/index.html"
+                       class="proj">Hangman</a>
                 </li>
-                <li class="nav-text">
-                    <a target="_blank"  href="https://rolling-scopes-school.github.io/sphsofi-JSFE2023Q4/nonograms/index.html"  class="proj">Nonograms</a>
+                <li class="nav-text link-animation">
+                    <a target="_blank"
+                       href="https://rolling-scopes-school.github.io/sphsofi-JSFE2023Q4/nonograms/index.html"
+                       class="proj">Nonograms</a>
                 </li>
             </ul>
         </li>
-        <li class="non"><p class="nav-title">LANGUAGE</p>
+        <li class="non"><p class="nav-title" id="language">LANGUAGE</p>
             <ul>
                 <li class="nav-text non"><b>Russian: </b>Native</li>
                 <li class="nav-text non"><b>English: </b>A2 (Pre-intermediate)</li>
             </ul>
         </li>
     </ul>
-</nav>
+</aside>
 <main class="main">
-    <section class="about section">
+    <section class="about section" id="about">
         <h2>ABOUT ME</h2>
         <p>I just graduated from college, but already have a year of experience
             working in software and database development. Since childhood, I realized that I was inclined
@@ -105,7 +124,7 @@
             perseverance, the desire to finish what I started, communication skills, determination, stress
             resistance and many others.</p>
     </section>
-    <section class="experience section">
+    <section class="experience section" id="work">
         <h2>EXPERIENCE</h2>
         <p class="company">Mosgorgeotrest</p>
         <div class="work-one">
@@ -150,7 +169,7 @@
             </ul>
         </div>
     </section>
-    <section class="education section">
+    <section class="education section" id="education">
         <h2>EDUCATION</h2>
         <p class="university">Moscow Power Engineering Institute – «НИУ МЭИ» (2019 – 2023)</p>
         <p class="speciality">Bechelor, applied computer science in economics</p>
@@ -164,7 +183,7 @@
         </ul>
     </section>
 
-    <section class="code section">
+    <section class="code section" id="code">
         <h2>CODE EXAMPLE</h2>
         <p><b>Condition: </b>Returns the polynom function of one argument based on specified coefficients.</p>
         <pre>
