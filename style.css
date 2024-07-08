@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A120B;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: max-content max-content max-content;
+    grid-template-areas: 'header header' 'aside main' 'footer footer';
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #1A120B;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.aside {
+    grid-area: aside;
+    border-right:  2px solid #1A120B;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.nav-title,
+.nuv-sub-title  {
+    font-weight: bold;
+    list-style: none;
+}
+
+.non {
+    list-style: none;
+}
+
+.nav-title,
+h2 {
+    margin: 20px 0;
+    text-decoration-line: underline;
+    font-size: 20px;
+}
+
+list
+
+.nuv-sub-title,
+h3 {
+    font-size: 18px;
+}
+
+.nav-text {
+    margin: 5px 0;
+    text-decoration-line: none;
+    font-size: 16px;
+    list-style: none;
+}
+
+.proj,
+a {
+    text-decoration-line: none;
+    color: #1A120B;
+}
+
+.main {
+    grid-area: main;
+    margin: 0 0 20px 20px;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.work-one ,
+.work-two,
+.work-three {
+    margin: 15px 10px;
+}
+
+.post,
+.university {
+    font-weight: bold;
+}
+
+.date,
+.speciality {
+    padding-bottom: 10px ;
+}
+
+.footer {
+    border-top: 2px solid #1A120B;
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.git {
+    text-decoration: none;
+    color: #1A120B;
+    font-size: 18px;
+}
+
+.logo {
+    margin: 20px 0;
+}
+
+.link-animation {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.link-animation:hover {
+    transform: scale(1.2);
+}
+
+.year {
+    font-size: 18px;
+}
