@@ -15,14 +15,29 @@ body {
     grid-template-areas: 'header header' 'aside main' 'footer footer';
 }
 
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.nav li {
+    list-style: none;
+}
+
 .header {
     grid-area: header;
     display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #1A120B;
+}
+
+.header-info {
+    display: flex;
     flex-direction: row;
     align-items: center;
-    height: min-content;
     justify-content: space-between;
-    border-bottom: 2px solid #1A120B;
 }
 
 .img {
@@ -70,7 +85,8 @@ h3 {
     list-style: none;
 }
 
-.proj {
+.proj,
+a {
     text-decoration-line: none;
     color: #1A120B;
 }
@@ -121,6 +137,7 @@ h3 {
 }
 
 .link-animation {
+    cursor: pointer;
     transition: 1s;
 }
 
